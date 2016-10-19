@@ -33,7 +33,16 @@ public class MainActivity extends Activity {
     }
 
     public void onToolClick(View view) {
-
+        Log.i("tag","click");
+        try {
+            Intent intent = new Intent("/");
+            ComponentName cm = new ComponentName("com.android.settings","com.android.settings.ManageApplications");
+            intent.setComponent(cm);
+            intent.setAction("android.intent.action.VIEW");
+            startActivityForResult( intent , 0);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     public void onAllClick(View view) {
