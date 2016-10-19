@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_ui"
+    app:columnCount="4"
+    app:rowCount="2"
+    app:orientation="horizontal"
+    tools:context="com.letv.tiger.shareit.famly.handwritepanel.MainActivity">
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onJianbiClick" />
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onQianpiClick" />
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onErtongClick" />
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onJishiClick" />
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onToolClick" />
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onAllClick" />
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onHuibenClick" />
+
+    <Button
+        app:layout_columnWeight="0.25"
+        app:layout_rowWeight="0.5"
+        android:background="@drawable/main_share_guide_send_bg"
+        android:onClick="onNetWorkClick" />
+</android.support.v7.widget.GridLayout>
